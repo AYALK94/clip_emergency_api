@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+pycache/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+
+# VS Code settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Logs
+*.log
+
+# Python tooling
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest
+htmlcov/
+.cache
+coverage.xml
+.pytest_cache/
+
+# FastAPI / Uvicorn specific
+*.sqlite3
+
+# IDEs
+.idea/
+*.iml
+
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Force LF endings for all text files
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
